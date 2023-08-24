@@ -1,0 +1,25 @@
+.carrito {
+    display: flex;
+    height: 70px;
+    width: 100px;
+}
+
+.navBar {
+    display: flex;
+    background-color: lavender;
+    min-height: 20vh;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+li {
+    margin: 10px;
+}
