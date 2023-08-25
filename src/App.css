@@ -1,3 +1,11 @@
+/* Paleta de colores */
+/* #065143 green
+#129490 cyan
+#70B77E esmeralda
+#E0A890 rosa bebe
+#CE1483 rosa Barbie*/
+
+
 .carrito {
     display: flex;
     height: 70px;
@@ -6,7 +14,7 @@
 
 .navBar {
     display: flex;
-    background-color: lavender;
+    background-color: #70B77E;
     min-height: 20vh;
     flex-wrap: wrap;
     padding: 20px;
@@ -22,4 +30,8 @@
 
 li {
     margin: 10px;
+}
+
+saludo {
+    padding: 15px;
 }

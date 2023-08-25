@@ -1,8 +1,7 @@
 
-function Mensaje () {
+function ItemListContainer ({greeting}) {
     return (
-        <h1>Bienvenidos a Vivero Jazmin </h1>
+        <h1 className="saludo"> {greeting} </h1>
     );
 }
-
-export default Mensaje
+export default ItemListContainer

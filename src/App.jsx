@@ -1,5 +1,5 @@
 import './App.css'
-import Mensaje from './ItemListContainer'
+import ItemListContainer from './ItemListContainer'
 import NavBar from './components/NavBar'
 
 
@@ -8,7 +8,7 @@ function App() {
     <>
       <NavBar/>
       
-        <Mensaje/>
+        <ItemListContainer greeting={'Bienvenidos a Vivero Jazmin'}/>
     </>
   )
 }
