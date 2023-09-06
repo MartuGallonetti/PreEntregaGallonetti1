@@ -1,0 +1,124 @@
+
+
+[
+{
+    "id": 1,
+    "nombre": "Rosa",
+    "descripción": "Una hermosa rosa roja",
+    "precio": 10.99,
+    "imagen": "",
+    "categoria": "Flores"
+},
+{
+    "id": 2,
+    "nombre": "Lavanda",
+    "descripción": "Aromática planta de lavanda",
+    "precio": 7.99,
+    "imagen": "",
+    "categoria": "Aromáticas"
+},
+{
+    "id": 3,
+    "nombre": "Helecho Boston",
+    "descripción": "Un helecho Boston de interior",
+    "precio": 12.49,
+    "imagen": "",
+    "categoria": "Helechos"
+},
+{
+    "id": 4,
+    "nombre": "Tulipán",
+    "descripción": "Tulipanes de colores variados",
+    "precio": 8.99,
+    "imagen": "",
+    "categoria": "Flores"
+},
+{
+    "id": 5,
+    "nombre": "Menta",
+    "descripción": "Fresca y fragante menta",
+    "precio": 5.99,
+    "imagen": "",
+    "categoria": "Aromáticas"
+},
+{
+    "id": 6,
+    "nombre": "Helecho de Cinta",
+    "descripción": "Elegante helecho de cinta",
+    "precio": 11.99,
+    "imagen": "",
+    "categoria": "Helechos"
+},
+{
+    "id": 7,
+    "nombre": "Orquídea",
+    "descripción": "Exótica orquídea de interior",
+    "precio": 15.99,
+    "imagen": "",
+    "categoria": "Flores"
+},
+{
+    "id": 8,
+    "nombre": "Romero",
+    "descripción": "Fragante planta de romero",
+    "precio": 6.99,
+    "imagen": "",
+    "categoria": "Aromáticas"
+},
+{
+    "id": 9,
+    "nombre": "Helecho Nido de Pájaros",
+    "descripción": "Helecho nido de pájaros colgante",
+    "precio": 13.99,
+    "imagen": "",
+    "categoria": "Helechos"
+},
+{
+    "id": 10,
+    "nombre": "Lirio",
+    "descripción": "Elegantes lirios blancos",
+    "precio": 9.99,
+    "imagen": "",
+    "categoria": "Flores"
+},
+{
+    "id": 11,
+    "nombre": "Albahaca",
+    "descripción": "Fresca albahaca para cocinar",
+    "precio": 4.99,
+    "imagen": "",
+    "categoria": "Aromáticas"
+},
+{
+    "id": 12,
+    "nombre": "Helecho Macho",
+    "descripción": "Helecho macho de gran tamaño",
+    "precio": 14.99,
+    "imagen": "",
+    "categoria": "Helechos"
+},
+{
+    "id": 13,
+    "nombre": "Girasol",
+    "descripción": "Brillantes girasoles amarillos",
+    "precio": 7.99,
+    "imagen": "",
+    "categoria": "Flores"
+},
+{
+    "id": 14,
+    "nombre": "Cilantro",
+    "descripción": "Aromático cilantro fresco",
+    "precio": 5.49,
+    "imagen": "",
+    "categoria": "Aromáticas"
+},
+{
+    "id": 15,
+    "nombre": "Helecho de Boston Mini",
+    "descripción": "Pequeño helecho Boston para escritorio",
+    "precio": 10.99,
+    "imagen": "",
+    "categoria": "Helechos"
+}
+]

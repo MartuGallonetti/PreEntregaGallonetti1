@@ -1,16 +1,16 @@
-import './App.css'
-import ItemListContainer from './ItemListContainer'
 import NavBar from './components/NavBar'
+import ItemListContainer from './components/ItemListContainer'
+import './App.css'
 
 
-function App() {
+
+
+export default function App() {
   return (
     <>
       <NavBar/>
-      
-        <ItemListContainer greeting={'Bienvenidos a Vivero Jazmin'}/>
+        <ItemListContainer greeting='Bienvenidos a Vivero Jazmin'/>
     </>
   )
 }
 
-export default App

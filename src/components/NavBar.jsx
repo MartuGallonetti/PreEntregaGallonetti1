@@ -1,5 +1,6 @@
-import CartWidget from '../CartWidget'
-function NavBar () {
+import CartWidget from '../components/CartWidget'
+
+export default function NavBar () {
     return (
         <>
         <header className="header">
@@ -12,9 +13,8 @@ function NavBar () {
                 <li><a href="./sobreNosotros.html">Sobre nosotros</a></li>
                 <CartWidget/>
             </ul>
-            </nav>
-            </header>
-            </> )
+        </nav>
+        </header>
+            </> 
+    )
 }
-
-export default NavBar
