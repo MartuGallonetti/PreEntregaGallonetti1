@@ -1,24 +1,6 @@
-import { useEffect, useState } from "react";
-import 
+import Item from "./Item";
 
-function obtenerProductos() {
-    return new Promise ((resultado) => {
-        setTimeout (() => {resultado (productos);
-        }, 3000);
-    })
-}
-
-
-export default function ItemList () {
-    const [productos, setProductos] = useState ([])
-
-    useEffect (() => {
-        obtenerProductos().then ((data) => {
-            setProductos (data)
-        })
-    }, []);
-
-
+export default function ItemList ( {productos} ) {
     return (
         <div className="item-list">
             {productos.map ((productos) => (

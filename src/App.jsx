@@ -3,8 +3,6 @@ import ItemListContainer from './components/ItemListContainer'
 import './App.css'
 
 
-
-
 export default function App() {
   return (
     <>

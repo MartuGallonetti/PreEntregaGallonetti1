@@ -36,3 +36,12 @@ li {
 .saludo {
     padding: 15px;
 }
+
+.item {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border: 30px;
+    border-color: #70b77e;
+}

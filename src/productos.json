@@ -1,12 +1,10 @@
-
-
 [
 {
     "id": 1,
     "nombre": "Rosa",
     "descripción": "Una hermosa rosa roja",
     "precio": 10.99,
-    "imagen": "",
+    "imagen": "https://e7.pngegg.com/pngimages/421/793/png-clipart-shrub-rose-tree-rose-floribunda-annual-plant.png",
     "categoria": "Flores"
 },
 {
@@ -14,7 +12,7 @@
     "nombre": "Lavanda",
     "descripción": "Aromática planta de lavanda",
     "precio": 7.99,
-    "imagen": "",
+    "imagen": "https://img2.freepng.es/20180616/it/kisspng-english-lavender-hidcote-manor-garden-perennial-pl-lavendel-5b24f4c3943459.4231891415291486116071.jpg",
     "categoria": "Aromáticas"
 },
 {
@@ -22,7 +20,7 @@
     "nombre": "Helecho Boston",
     "descripción": "Un helecho Boston de interior",
     "precio": 12.49,
-    "imagen": "",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpD7xcbEviBiCWHzPj_aWp0Hgt-AVIt0WPKA&usqp=CAU",
     "categoria": "Helechos"
 },
 {
@@ -30,7 +28,7 @@
     "nombre": "Tulipán",
     "descripción": "Tulipanes de colores variados",
     "precio": 8.99,
-    "imagen": "",
+    "imagen": "https://static.vecteezy.com/system/resources/previews/024/634/928/non_2x/beautiful-colorful-tulips-isolated-on-transparent-background-generate-ai-free-png.png",
     "categoria": "Flores"
 },
 {
@@ -38,7 +36,7 @@
     "nombre": "Menta",
     "descripción": "Fresca y fragante menta",
     "precio": 5.99,
-    "imagen": "",
+    "imagen": "https://e7.pngegg.com/pngimages/466/409/png-clipart-peppermint-herbal-tea-basil-fresh-green-tea-leaves-leaf-herbal-tea.png",
     "categoria": "Aromáticas"
 },
 {
@@ -46,7 +44,7 @@
     "nombre": "Helecho de Cinta",
     "descripción": "Elegante helecho de cinta",
     "precio": 11.99,
-    "imagen": "",
+    "imagen": "https://m.media-amazon.com/images/I/51c8ZFNa0OL._AC_UF1000,1000_QL80_.jpg",
     "categoria": "Helechos"
 },
 {
@@ -54,7 +52,7 @@
     "nombre": "Orquídea",
     "descripción": "Exótica orquídea de interior",
     "precio": 15.99,
-    "imagen": "",
+    "imagen": "https://w7.pngwing.com/pngs/111/104/png-transparent-moth-orchids-flowerpot-cut-flowers-artificial-flower-flower-artificial-flower-plant-stem-vase.png",
     "categoria": "Flores"
 },
 {
@@ -62,7 +60,7 @@
     "nombre": "Romero",
     "descripción": "Fragante planta de romero",
     "precio": 6.99,
-    "imagen": "",
+    "imagen": "https://media.istockphoto.com/id/503757323/es/foto/rosemary.jpg?s=612x612&w=0&k=20&c=dJNcVZx2Ze6ogRxwE8TMZHpy5vpDZfeoUi3fQgo4Dq4=",
     "categoria": "Aromáticas"
 },
 {
@@ -70,7 +68,7 @@
     "nombre": "Helecho Nido de Pájaros",
     "descripción": "Helecho nido de pájaros colgante",
     "precio": 13.99,
-    "imagen": "",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_738485-MLM44623718985_012021-O.webp",
     "categoria": "Helechos"
 },
 {
@@ -78,7 +76,7 @@
     "nombre": "Lirio",
     "descripción": "Elegantes lirios blancos",
     "precio": 9.99,
-    "imagen": "",
+    "imagen": "https://e7.pngegg.com/pngimages/705/556/png-clipart-peace-lily-cut-flowers-flowerpot-houseplant-peace-lily-leaf-plant-stem.png",
     "categoria": "Flores"
 },
 {
@@ -86,7 +84,7 @@
     "nombre": "Albahaca",
     "descripción": "Fresca albahaca para cocinar",
     "precio": 4.99,
-    "imagen": "",
+    "imagen": "https://e7.pngegg.com/pngimages/742/1012/png-clipart-basil-myrtle-overland-nurseries-groundcover-vegetable-vegetable-leaf-vegetable-leaf.png",
     "categoria": "Aromáticas"
 },
 {
@@ -94,7 +92,7 @@
     "nombre": "Helecho Macho",
     "descripción": "Helecho macho de gran tamaño",
     "precio": 14.99,
-    "imagen": "",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJoYycQTPSOZNfMMfp08fggLqrM3slVTW-bg&usqp=CAU",
     "categoria": "Helechos"
 },
 {
@@ -102,7 +100,7 @@
     "nombre": "Girasol",
     "descripción": "Brillantes girasoles amarillos",
     "precio": 7.99,
-    "imagen": "",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3tl79afY_fkRXOPqGXeRjw41YvhdWL3hNR7EoZxjEGjo4KyP0sSkKQnaOGxQHwjRMVaQ&usqp=CAU",
     "categoria": "Flores"
 },
 {
@@ -110,7 +108,7 @@
     "nombre": "Cilantro",
     "descripción": "Aromático cilantro fresco",
     "precio": 5.49,
-    "imagen": "",
+    "imagen": "https://w7.pngwing.com/pngs/43/269/png-transparent-chutney-mexican-cuisine-pesto-coriander-herb-parsley-leaf-vegetable-food-cooking.png",
     "categoria": "Aromáticas"
 },
 {
@@ -118,7 +116,7 @@
     "nombre": "Helecho de Boston Mini",
     "descripción": "Pequeño helecho Boston para escritorio",
     "precio": 10.99,
-    "imagen": "",
+    "imagen": "https://cdn.pixabay.com/photo/2020/04/30/19/52/boston-fern-5114414_960_720.jpg",
     "categoria": "Helechos"
 }
 ]
