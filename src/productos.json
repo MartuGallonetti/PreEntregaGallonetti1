@@ -4,7 +4,7 @@
     "nombre": "Rosa",
     "descripción": "Una hermosa rosa roja",
     "precio": 10.99,
-    "imagen": "https://e7.pngegg.com/pngimages/421/793/png-clipart-shrub-rose-tree-rose-floribunda-annual-plant.png",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEyzzsFmrKS-5qEgtA7d46nz3jzQWA76YtZA&usqp=CAU",
     "categoria": "Flores"
 },
 {
@@ -12,7 +12,7 @@
     "nombre": "Lavanda",
     "descripción": "Aromática planta de lavanda",
     "precio": 7.99,
-    "imagen": "https://img2.freepng.es/20180616/it/kisspng-english-lavender-hidcote-manor-garden-perennial-pl-lavendel-5b24f4c3943459.4231891415291486116071.jpg",
+    "imagen": "https://m.media-amazon.com/images/I/81kPrmLbrbL._AC_UF894,1000_QL80_.jpg",
     "categoria": "Aromáticas"
 },
 {
@@ -36,7 +36,7 @@
     "nombre": "Menta",
     "descripción": "Fresca y fragante menta",
     "precio": 5.99,
-    "imagen": "https://e7.pngegg.com/pngimages/466/409/png-clipart-peppermint-herbal-tea-basil-fresh-green-tea-leaves-leaf-herbal-tea.png",
+    "imagen": "https://w7.pngwing.com/pngs/544/671/png-transparent-chewing-gum-peppermint-mentha-spicata-herb-pepermint-food-leaf-herbal.png",
     "categoria": "Aromáticas"
 },
 {
@@ -52,7 +52,7 @@
     "nombre": "Orquídea",
     "descripción": "Exótica orquídea de interior",
     "precio": 15.99,
-    "imagen": "https://w7.pngwing.com/pngs/111/104/png-transparent-moth-orchids-flowerpot-cut-flowers-artificial-flower-flower-artificial-flower-plant-stem-vase.png",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKiOEiv7xrFrp8YfHrzwihgQyPgc-NXMWAN4jrEsHQagBvVRakEw8t6EShZ4Vg3PUikmo&usqp=CAU",
     "categoria": "Flores"
 },
 {
@@ -76,7 +76,7 @@
     "nombre": "Lirio",
     "descripción": "Elegantes lirios blancos",
     "precio": 9.99,
-    "imagen": "https://e7.pngegg.com/pngimages/705/556/png-clipart-peace-lily-cut-flowers-flowerpot-houseplant-peace-lily-leaf-plant-stem.png",
+    "imagen": "https://arreglosfloralesguatemala.com/cdn/shop/products/80_4276ab31-441d-4112-93bc-836e9785b3a3_grande.jpg?v=1565989704",
     "categoria": "Flores"
 },
 {
@@ -84,7 +84,7 @@
     "nombre": "Albahaca",
     "descripción": "Fresca albahaca para cocinar",
     "precio": 4.99,
-    "imagen": "https://e7.pngegg.com/pngimages/742/1012/png-clipart-basil-myrtle-overland-nurseries-groundcover-vegetable-vegetable-leaf-vegetable-leaf.png",
+    "imagen": "https://us.123rf.com/450wm/frederiquepage/frederiquepage1305/frederiquepage130500060/19500402-albahaca.jpg",
     "categoria": "Aromáticas"
 },
 {
@@ -108,7 +108,7 @@
     "nombre": "Cilantro",
     "descripción": "Aromático cilantro fresco",
     "precio": 5.49,
-    "imagen": "https://w7.pngwing.com/pngs/43/269/png-transparent-chutney-mexican-cuisine-pesto-coriander-herb-parsley-leaf-vegetable-food-cooking.png",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiaxjB-O2Ewp2WZZ_NkcE-D-o0aAv9qLZoVQ&usqp=CAU",
     "categoria": "Aromáticas"
 },
 {

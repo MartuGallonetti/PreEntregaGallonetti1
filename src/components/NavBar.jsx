@@ -1,20 +1,20 @@
+import { Link } from 'react-router-dom'
 import CartWidget from '../components/CartWidget'
 
 export default function NavBar () {
     return (
-        <>
-        <header className="header">
-        
-        <nav className="navBar">
-            <ul className="nav">
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./plantas.html">Plantas</a></li>
-                <li><a href="./accesorios.html">Accesorios</a></li>
-                <li><a href="./sobreNosotros.html">Sobre nosotros</a></li>
-                <CartWidget/>
+        <nav>
+            <Link to='/'>
+            <img src= './assets/logoVivero.png' alt="" />
+            </Link>
+            
+            <ul>
+                <Link to= "/Inicio" >Inicio</Link>
+                <Link to= "/Inicio" >Inicio</Link>
+                <Link to= "/Inicio" >Inicio</Link>
+                <Link to= "/Inicio" >Inicio</Link>
             </ul>
+            <CartWidget/>
         </nav>
-        </header>
-            </> 
     )
 }
