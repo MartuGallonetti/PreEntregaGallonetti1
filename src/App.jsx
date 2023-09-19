@@ -8,10 +8,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 export default function App() {
   return (
     <BrowserRouter>
-    <NavBar/>
+      <NavBar/>
     <Routes>
       <Route exact path='/' element= {<ItemListContainer/>} />
-      <Route exact path='/Inicio' element= { <p>Inicio</p> } />
+      <Route exact path='/category/:categoria' element= {<ItemListContainer/>} />
+      <Route exact path='/item/:itemId' element= {<ItemListContainer/>} />
     </Routes>
     </BrowserRouter>
   )

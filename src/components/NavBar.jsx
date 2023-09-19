@@ -3,16 +3,15 @@ import CartWidget from '../components/CartWidget'
 
 export default function NavBar () {
     return (
-        <nav>
+        <nav className='navBar'>
             <Link to='/'>
-            <img src= './assets/logoVivero.png' alt="" />
+                <img className='logo' src='../logoVivero.png' alt="logo" />
             </Link>
             
-            <ul>
-                <Link to= "/Inicio" >Inicio</Link>
-                <Link to= "/Inicio" >Inicio</Link>
-                <Link to= "/Inicio" >Inicio</Link>
-                <Link to= "/Inicio" >Inicio</Link>
+            <ul className='nav'>
+                <Link to= "/category/Flores" >Flores</Link>
+                <Link to= "/category/Aromáticas" >Aromáticas</Link>
+                <Link to= "/category/Helechos" >Helechos</Link>
             </ul>
             <CartWidget/>
         </nav>
