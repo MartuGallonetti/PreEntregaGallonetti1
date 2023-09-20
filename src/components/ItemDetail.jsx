@@ -1,10 +1,10 @@
-export default function ItemDetail ( {productos} ) {
+export default function ItemDetail ( {producto} ) {
     return (
         <div className="ItemDetail">
-            <img src= {productos.imagen} alt="" />
-            <h2> {productos.nombre} </h2>
+            <img src= {producto.imagen} width= {100}  alt="" />
+            <h2> {producto.nombre} </h2>
             <p> {productos.descripción} </p>
-            <span> {productos.precio} </span>
+            <span> {producto.precio} </span>
         </div>
     )
 }

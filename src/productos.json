@@ -13,7 +13,7 @@
     "descripción": "Aromática planta de lavanda",
     "precio": 7.99,
     "imagen": "https://m.media-amazon.com/images/I/81kPrmLbrbL._AC_UF894,1000_QL80_.jpg",
-    "categoria": "Aromáticas"
+    "categoria": "Aromaticas"
 },
 {
     "id": 3,
@@ -37,7 +37,7 @@
     "descripción": "Fresca y fragante menta",
     "precio": 5.99,
     "imagen": "https://w7.pngwing.com/pngs/544/671/png-transparent-chewing-gum-peppermint-mentha-spicata-herb-pepermint-food-leaf-herbal.png",
-    "categoria": "Aromáticas"
+    "categoria": "Aromaticas"
 },
 {
     "id": 6,
@@ -61,7 +61,7 @@
     "descripción": "Fragante planta de romero",
     "precio": 6.99,
     "imagen": "https://media.istockphoto.com/id/503757323/es/foto/rosemary.jpg?s=612x612&w=0&k=20&c=dJNcVZx2Ze6ogRxwE8TMZHpy5vpDZfeoUi3fQgo4Dq4=",
-    "categoria": "Aromáticas"
+    "categoria": "Aromaticas"
 },
 {
     "id": 9,
@@ -85,7 +85,7 @@
     "descripción": "Fresca albahaca para cocinar",
     "precio": 4.99,
     "imagen": "https://us.123rf.com/450wm/frederiquepage/frederiquepage1305/frederiquepage130500060/19500402-albahaca.jpg",
-    "categoria": "Aromáticas"
+    "categoria": "Aromaticas"
 },
 {
     "id": 12,
@@ -109,7 +109,7 @@
     "descripción": "Aromático cilantro fresco",
     "precio": 5.49,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiaxjB-O2Ewp2WZZ_NkcE-D-o0aAv9qLZoVQ&usqp=CAU",
-    "categoria": "Aromáticas"
+    "categoria": "Aromaticas"
 },
 {
     "id": 15,

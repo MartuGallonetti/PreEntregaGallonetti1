@@ -1,21 +1,36 @@
 import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import productosJson from '../productos.json'
 import ItemDetail from "./ItemDetail";
 
-export default function ItemDetailContainer () {
-    const [productos, setProductos] = useState ();
+export default function ItemDetailContainer() {
+const [producto, setProducto] = useState();
+const { id } = useParams(); 
 
-    useEffect (() => {
-        fetch ('../productos.json')
-        .then (resultado => resultado.json ())
-        .then ((data) => setProductos (data))
-    }, []);
+useEffect(() => {
+    
+    const obtenerProducto = async () => {
+    try {
+        
+        await new Promise((res) => setTimeout(res, 1000));
+        const selectedProduct = productosJson.find((producto) => producto.id === Number(id));
+        
+        setProducto(selectedProduct);
+    } catch (error) {
+        console.error("Error al obtener el producto:", error);
+    }
+    };
 
-if (! productos) return null
+    obtenerProducto();
+}, [id]);
 
-return (
-    <div className="item-detail-container">
-        <ItemDetail productos= {productos} />
-    </div>
-)
+if (!producto) {
+    return <p>Cargando...</p>;
 }
 
+return (
+    <div className="item-list-container">
+        <ItemDetail producto={producto} />
+    </div>
+);
+}

@@ -10,7 +10,7 @@ export default function NavBar () {
             
             <ul className='nav'>
                 <Link to= "/category/Flores" >Flores</Link>
-                <Link to= "/category/Aromáticas" >Aromáticas</Link>
+                <Link to= "/category/Aromaticas" >Aromáticas</Link>
                 <Link to= "/category/Helechos" >Helechos</Link>
             </ul>
             <CartWidget/>

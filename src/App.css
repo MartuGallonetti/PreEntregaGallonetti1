@@ -10,8 +10,6 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px, 20px;
-    /* height: 50px;
-    width: 50px; */
 }
 
 .navBar {
@@ -20,7 +18,8 @@
     min-height: 20vh;
     flex-wrap: wrap;
     padding: 30px;
-    font-style: #ce1483;
+    color: #ce1483;
+    text-decoration: none;
 }
 
 .nav {
@@ -42,4 +41,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    text-align: initial;
 }
