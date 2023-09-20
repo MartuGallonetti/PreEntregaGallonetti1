@@ -1,10 +1,10 @@
 
 export default function Item ({ productos }) {
     return (
-        <div className="item card w-40  mt-3">
-            <img src= {productos.imagen} width={250} alt= {productos.nombre} />
+        <div className="item">
+            <img className="imagen" src= {productos.imagen} width={200} alt= {productos.nombre} />
             <h3> {productos.nombre} </h3>
-            <p> {productos.precio} </p>
+            <p className="precio"> {productos.precio} </p>
         </div>
     )
 }

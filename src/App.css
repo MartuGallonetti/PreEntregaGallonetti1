@@ -39,12 +39,32 @@
 .itemDetail {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    margin-top: 60px;
+}
+
+.item-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 40px;
 }
 
 .item {
     display: flex;
     flex-direction: column;
-    text-align: initial;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    border: 5px solid #e0a890;
+    box-shadow: 10px 10px 10px 10px #d3d3d3d1;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.imagen {
+    margin-top: 20px;
 }
