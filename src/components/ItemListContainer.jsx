@@ -29,7 +29,7 @@ export default function ItemListContainer () {
 
     return (
         <div className="item-list-container">
-            <ItemList productos={productos} />
+            < ItemList productos={productos} />
         </div>
     )
 }
