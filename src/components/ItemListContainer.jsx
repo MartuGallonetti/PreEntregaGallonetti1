@@ -4,23 +4,6 @@ import { useParams } from "react-router-dom";
 import { getFirestore } from "../firebase/firebase";
 import { collection, getDocs } from "firebase/firestore";
 
-
-// const mockAPI = (categoria) => {
-//     return new Promise ((resolve) => {
-//         setTimeout(() =>{
-//             if (categoria != undefined) {
-//                 const productosFiltrados = productosJson.filter (
-//                     (item) => item.categoria === categoria
-//                 );
-//                 resolve (productosFiltrados);
-//             } else {
-//                 resolve(productosJson);
-//             }           
-//         }, 2000);
-//     })
-// }
-
-
 export default function ItemListContainer () {
     const [productos, setProductos] = useState ([]);
     const { categoria } =useParams ()
@@ -34,7 +17,7 @@ export default function ItemListContainer () {
         let datos = value.docs.map(e => {
             return{...e.data(), id: e.id}
         })
-        let myData = categoria ? datos.filter((item) => item.category === categoria) : datos;
+        let myData = categoria ? datos.filter((item) => item.categoria === categoria) : datos;
             
         if(categoria === "all") {
             myData = datos
@@ -45,10 +28,9 @@ export default function ItemListContainer () {
 })},1000)
 }, [categoria])
 
-    return (
+    return ( loading? <img className="loadingListContainer" src="https://c.tenor.com/9IsrqCRzmNwAAAAC/tyrannosaurus-dinosaur.gif" alt="Cargando el contenido" /> :
         <div className="item-list-container">
             < ItemList productos={productos} />
         </div>
     )
 }
-
