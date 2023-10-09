@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import { faPlus } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 const ItemCounter = ({onAdd}) => {
@@ -16,7 +19,8 @@ const ItemCounter = ({onAdd}) => {
     return (
         <>
             <div className='detailBtns'>
-                <button className='btnCant restar' disabled={Cant===0} onClick={restar}>-</button>
+                <Link> <FontAwesomeIcon icon={faPlus} color= "70B77E" /> 
+                <button className='btnCant restar' disabled={Cant===0} onClick={restar}>-</button></Link>
                 <p className='cantidad'>{Cant}</p>
                 <button className='btnCant sumar'  onClick={sumar}>+</button> 
             </div>

@@ -64,9 +64,10 @@
     margin: 20px;
 }
 
-.item.imagen {
-    width: 100px; /* Ancho fijo para todas las imágenes */
-    height: 100px; 
+.item.img.imagen {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
 }
 
 .detailBtns {
@@ -77,5 +78,39 @@
 .detailbtns.btnCant-restar {
     display: flex;
     margin: 30px;
+}
 
+/* Estiliza el contenedor de control de cantidad */
+.quantity-control {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px; /* Ancho total del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+/* Estiliza los botones de decremento e incremento */
+.decrement,
+.increment {
+    padding: 8px 16px; /* Ajusta el tamaño de los botones */
+    font-size: 18px; /* Ajusta el tamaño del texto dentro de los botones */
+    background-color: #007bff; /* Cambia el color de fondo de los botones */
+    color: #fff; /* Cambia el color del texto de los botones */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.decrement:hover,
+.increment:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse sobre los botones */
+}
+
+/* Estiliza el campo de entrada de cantidad */
+.quantity {
+    width: 50px; /* Ajusta el ancho del campo de entrada */
+    text-align: center; /* Centra el texto en el campo de entrada */
+    font-size: 16px; /* Ajusta el tamaño del texto en el campo de entrada */
+    border: 1px solid #ccc; /* Agrega un borde al campo de entrada */
+    border-radius: 4px; /* Agrega esquinas redondeadas al campo de entrada */
 }

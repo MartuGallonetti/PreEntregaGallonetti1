@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 export default function CartWidget () {
     return (
         <div className="cart-widget">
-            <Link to= {`./cart/`}> <FontAwesomeIcon icon={faShoppingCart} size="2x" color="white" /></Link>
+            <Link to= {`./checkout/`}> <FontAwesomeIcon icon={faShoppingCart} size="2x" color="white" /></Link>
         </div>
     )
 }

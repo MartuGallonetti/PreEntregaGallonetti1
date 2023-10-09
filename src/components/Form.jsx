@@ -6,7 +6,6 @@ import Input from './Input';
 import { CartContext } from "./CartContext";
 import { getFirestore } from "../firebase/firebase";
 import { collection,  addDoc  } from "firebase/firestore";
-// import styled, {css} from 'styled-components';
 
 const Form = () => {
 	const [usuario, setUsuario] = useState({campo: '', valido: null});
@@ -59,7 +58,7 @@ const Form = () => {
         }
         const ordenesCollection = collection(db, "ordenes");
         addDoc(ordenesCollection, guardarFire).then(({id})=>{
-            alert(`Tu pedido ha sido generado bajo el código ${id}. `);
+            alert(`Tu pedido ha sido generado bajo el código ${id}.`);
         }).catch(err=>{
             alert(err)
         })

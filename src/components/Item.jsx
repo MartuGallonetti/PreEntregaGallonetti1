@@ -23,7 +23,7 @@ export default function Item ({ productos }) {
                     : 
                     <>
                         <p className='itemAdded'>Producto añadido al Carrito</p>
-                        <Link to="/cart"><button className='addToCart proceed'>Finalizar Compra</button></Link>
+                        <Link to="/checkout"><button className='addToCart proceed'>Finalizar Compra</button></Link>
                     </>
                     }
             
