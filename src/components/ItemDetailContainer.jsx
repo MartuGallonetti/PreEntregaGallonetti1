@@ -31,7 +31,7 @@ setTimeout(()=> {
 
 return (
     loading ? <img className="loadingListContainer" src="https://c.tenor.com/9IsrqCRzmNwAAAAC/tyrannosaurus-dinosaur.gif" alt="Cargando el contenido" /> :
-    <div className="item-list-container">
+    <div className="item-detail-container">
         <ItemDetail producto={producto} />
     </div>
 );

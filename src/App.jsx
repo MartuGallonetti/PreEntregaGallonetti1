@@ -19,7 +19,7 @@ export default function App() {
       <Route exact path='/' element= {<ItemListContainer/>} />
       <Route exact path='/category/:categoria' element= {<ItemListContainer/>} />
       <Route exact path='/item/:id' element= {<ItemDetailContainer/>} />
-      <Route exact path='/checkout' element= {<> < Checkout /> <Form/> </>} />
+      <Route exact path='/cart' element= {<> < Checkout /> <Form/> </>} />
     </Routes>
     </BrowserRouter>
     </CartContextProvider>
