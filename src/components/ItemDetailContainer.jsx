@@ -7,7 +7,7 @@ import {getFirestore} from "../firebase/firebase"
 export default function ItemDetailContainer() {
 const [producto, setProducto] = useState();
 const [loading, setLoading] = useState(true);
-const { id } = useParams(); 
+const { nombre } = useParams(); 
 
 useEffect(() => {
     setLoading(true)
@@ -23,11 +23,11 @@ setTimeout(()=> {
         
         })
         console.log (datos)
-        const singleProd = datos.find((e) => e.id === id);
+        const singleProd = datos.find((e) => e.nombre === nombre);
         setProducto(singleProd)
         setLoading(false)
 })},1500) 
-}, [id])
+}, [nombre])
 
 return (
     loading ? <img className="loadingListContainer" src="https://c.tenor.com/9IsrqCRzmNwAAAAC/tyrannosaurus-dinosaur.gif" alt="Cargando el contenido" /> :

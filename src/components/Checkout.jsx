@@ -33,7 +33,7 @@ const Cart = () => {
         ) : (
           <>
             <h1 className="cartEmpty">El carrito está vacío.</h1>
-            <Link className="returnLink" to={"/products"}>
+            <Link className="returnLink" to={"/"}>
               Ver nuestros productos
             </Link>
           </>

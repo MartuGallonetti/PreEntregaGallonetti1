@@ -54,7 +54,9 @@ const Form = () => {
         let guardarFire = {
             Buyer: {usuario:usuario.campo,nombre:nombre.campo,phone:telefono.campo,email:correo.campo,},
             Items:{...cart},
-            total: total
+            total: total,
+			fecha: new Date()
+			
         }
         const ordenesCollection = collection(db, "ordenes");
         addDoc(ordenesCollection, guardarFire).then(({id})=>{

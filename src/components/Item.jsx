@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom"
 import React, { useState, useContext} from 'react';
 import { ItemCounter } from "./ItemCounter"
@@ -16,14 +15,14 @@ export default function Item ({ productos }) {
     return (
         <div className="item">
             <img className="imagen" src= {productos.imagen} width={200} alt= {productos.nombre} />
-            <Link to= {`../../item/${productos.id}`} ><h3> {productos.nombre} </h3></Link>
+            <Link to= {`../../item/${productos.nombre}`} ><h3> {productos.nombre} </h3></Link>
             <p className="precio"> {productos.precio} </p>
             { !add ?
                     <ItemCounter  onAdd={onAdd}/>   
                     : 
                     <>
                         <p className='itemAdded'>Producto añadido al Carrito</p>
-                        <Link to="/checkout"><button className='addToCart proceed'>Finalizar Compra</button></Link>
+                        <Link to="/cart"><button className='addToCart proceed'>Finalizar Compra</button></Link>
                     </>
                     }
             

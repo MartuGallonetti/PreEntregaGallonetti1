@@ -8,6 +8,7 @@ import { initializeApp } from "firebase/app";
 import { firebaseConfig } from './firebase/firebase'
 import { CartContextProvider } from './components/CartContext'
 import Form from './components/Form'
+import Boton from './components/Boton'
 
 export default function App() {
   initializeApp(firebaseConfig)
@@ -18,8 +19,10 @@ export default function App() {
     <Routes>
       <Route exact path='/' element= {<ItemListContainer/>} />
       <Route exact path='/category/:categoria' element= {<ItemListContainer/>} />
-      <Route exact path='/item/:id' element= {<ItemDetailContainer/>} />
-      <Route exact path='/cart' element= {<> < Checkout /> <Form/> </>} />
+      <Route exact path='/item/:nombre' element= {<ItemDetailContainer/>} />
+      <Route exact path='/cart' element= {<> < Checkout /> <Form/> </>} 
+      />
+      <Route path='*' element= {<Boton/>} />
     </Routes>
     </BrowserRouter>
     </CartContextProvider>
