@@ -12,13 +12,14 @@ const Cart = () => {
       <div className="cartDisplay">
         <h1 className="myCart"> Carrito de Compras</h1>
         {cart.length > 0 ? (
-          <div>
+          <div className="contenedor-carrito">
             {cart.map((item) => {
               return (
-                <div className="itemCartFlex" key={item.id}>
+                <div className="items-carrito" key={item.id}>
+                  <img className="imagen" src= {item.imagen} width= {100} />
                   <h6>{` Codigo: ${item.id}`}</h6>
-                  <h3 className="itemCart">{`| ${item.nombre} | $${item.precio} |`}</h3>
-                  <h5>{`Cantidad: ${item.cantidad} |`}</h5>
+                  <h3>{` ${item.nombre}  $${item.precio} `}</h3>
+                  <h5>{`Cantidad: ${item.cantidad} `}</h5>
                   <h5>{`Subtotal: $ ${item.cantidad * item.precio}`}</h5>
                   <button
                     className="removeItem"

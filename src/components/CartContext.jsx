@@ -19,7 +19,7 @@ const CartContextProvider = ({children}) => {
     const addItem = (item, cantidad) => { 
     const updtItem = cart.find(prod => prod.id === item.id)
         if(!isInCart(item.id)){
-            setCart([...cart, {id: item.id, nombre: item.nombre, precio: item.precio, cantidad: cantidad}])
+            setCart([...cart, {id: item.id, nombre: item.nombre, precio: item.precio, cantidad: cantidad, imagen: item.imagen}])
             } else {
             const nuevaCantidad = updtItem.cantidad + cantidad
             setCart(cart.map((prod)=> {

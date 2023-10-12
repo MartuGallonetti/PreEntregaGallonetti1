@@ -84,3 +84,36 @@
     border-radius: 4px;
     margin: 10px;
 }
+
+/* carrito */
+
+.cartDisplay {
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cartEmpty {
+    display: flex;
+    color: #129490;
+    font-size: 20px;
+}
+
+.contenedor-carrito {
+    display: flex;
+    flex-direction: row;
+}
+
+.items-carrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 380px;
+    border: 5px solid #e0a890;
+    box-shadow: 10px 10px 10px 10px #d3d3d3d1;
+    border-radius: 15px;
+}
+
+/* botones */
